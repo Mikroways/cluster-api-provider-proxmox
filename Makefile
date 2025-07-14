@@ -248,7 +248,7 @@ crs-metallb: ## Generates crs manifests for MetalLB.
 ## Release
 ## --------------------------------------
 
-REPOSITORY ?= ghcr.io/ionos-cloud/cluster-api-provider-proxmox
+REPOSITORY ?= ghcr.io/mikroways/cluster-api-provider-proxmox
 RELEASE_DIR ?= out
 RELEASE_VERSION ?= v0.0.1
 
