@@ -26,7 +26,8 @@ jobs:
           go-version-file: go.mod
       - name: generate release artifacts
         run: |
-          make release-manifests "RELEASE_VERSION=$RELEASE_TAG"
+          make release-manifests "RELEASE_VERSION=$RELEASE_TAG" \
+            "REPOSITORY=ghcr.io/mikroways/cluster-api-provider-proxmox"
       - name: generate release templates
         run: |
           make release-templates
