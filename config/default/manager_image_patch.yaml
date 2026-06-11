@@ -8,5 +8,5 @@ spec:
   template:
     spec:
       containers:
-      - image: ghcr.io/ionos-cloud/cluster-api-provider-proxmox:dev
+      - image: ghcr.io/mikroways/cluster-api-provider-proxmox:dev
         name: manager
